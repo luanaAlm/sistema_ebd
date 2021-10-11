@@ -13,7 +13,7 @@
  
  
  <h1 align = "center">
-    <img alt = "Musical.lyrics" title = "Projeto Letras de Música" src = "https://github.com/luanaAlm/musical.lyrics/blob/main/static/imagem/screencapture-127-0-0-1-8000-2021-05-11-19_03_34.png" />
+    <img alt = "Musical.lyrics" title = "Projeto Letras de Música" src = "https://raw.githubusercontent.com/luanaAlm/sistema_ebd/main/static/img/screencapture-127-0-0-1-8000-secretarios-home-2021-10-11-12_57_46.png" />
 </h1>
 
 ## 🧪 Tecnologias
