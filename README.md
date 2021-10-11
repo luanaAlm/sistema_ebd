@@ -23,4 +23,3 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 - [Django](https://www.djangoproject.com/)
-- https://startbootstrap.com/template/sb-admin
