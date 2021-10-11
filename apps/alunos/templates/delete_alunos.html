@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <!-- titulo -->
+    <h1 class="h3 mb-4 text-gray-800">{{titulo}}</h1>
+    <hr class="sidebar-divider d-none d-md-block">
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">{{subtitle}}</h6>
+        </div>
+        <div class="card-body">
+            <h4 class="text-gray-800">Tem certeza que deseja deletar o(a) aluno(a): {{ aluno.nome }} {{ aluno.sobrenome }}</h4>
+            <form action="{% url 'delete_aluno' aluno.ID_Aluno %}" method="POST">
+                {% csrf_token %}
+                <br>
+                <button class="btn btn-danger btn-block" type="submit">Deletar</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

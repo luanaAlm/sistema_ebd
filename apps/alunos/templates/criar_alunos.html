@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap %}
+
+{% block main %}
+
+
+    {% csrf_token %}
+    <!-- titulo -->
+    <h1 class="h3 mb-4 text-gray-800">{{titulo}}</h1>
+    <hr class="sidebar-divider d-none d-md-block">
+    
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">{{subtitle}}</h6>
+        </div>
+        <div class="card-body">
+            <!-- Formulario aluno -->
+            <form action="{% url 'novo_aluno' %}" method="POST"
+                enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <hr>
+                        {% csrf_token %}
+                        {{ form|bootstrap }}
+                        <br>
+                        <button class="btn btn-success" type="submit">
+                            Salvar
+                        </button>
+                        <a class="btn btn-warning" onclick="alerta()" type="button" href="{% url 'home' %}">
+                            Voltar
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mask -->
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+
+    <!-- <script>
+        
+        function alerta(){
+            alert("Ao voltar o resgistro não sera salvo!");
+        }
+        var cleave = new Cleave('#id_data', {
+            date: true,
+            delimiter: '/',
+            datePattern: ['d', 'm', 'Y']
+        });
+        var cleave = new Cleave('#id_cpf', {
+            delimiters: ['.', '.', '-'],
+            blocks: [3, 3, 3, 2],
+            uppercase: true
+        });
+        var cleave = new Cleave('#id_telefone', {
+            delimiters: ['-'],
+            blocks: [2, 5, 4],
+            uppercase: true
+        });
+        var cleave = new Cleave('#id_cep', {
+            delimiters: ['-'],
+            blocks: [5, 3],
+            uppercase: true
+        });
+        var cleave = new Cleave('#id_telefoneResp', {
+            delimiters: ['-'],
+            blocks: [2, 5, 4],
+            uppercase: true
+        });
+    </script> -->
+    
+{% endblock %}
+    
