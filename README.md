@@ -2,9 +2,9 @@
 
 ###💻 Projeto
 
- -Sit para cadastro de alunod de uma escola religiosa.
+ -Site para cadastro de alunos de uma escola religiosa.
  
-
+- Este projeto foi desenvolvido por **[ Luana Almeida ](https://github.com/luanaAlm)** , template **[ startbootstrap ](https://startbootstrap.com/template/sb-admin)**
  <h1 align = "center">
     <img alt = "Sistema de Cadastro" title = "Sistema de Cadastro" src = "https://raw.githubusercontent.com/luanaAlm/sistema_ebd/main/static/img/screencapture-127-0-0-1-8000-secretarios-home-2021-10-11-12_57_46.png" />
 </h1>
