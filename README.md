@@ -30,4 +30,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 - [Django](https://www.djangoproject.com/)
 
-- Este projeto foi desenvolvido por **[ Luana Almeida ](https://github.com/luanaAlm)** , template **[ startbootstrap ](https://startbootstrap.com/template/sb-admin)**
+<hr>
+
+Feito por [Luana Almeida](https://github.com/luanaAlm), template [startbootstrap](https://startbootstrap.com/template/sb-admin)
