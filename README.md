@@ -9,7 +9,7 @@
 
 
 # Sobre
--Site para cadastro de alunos de uma escola religiosa.
+Site para cadastro de alunos de uma escola religiosa.
  
  <h1 align = "center">
     <img alt = "Sistema de Cadastro" title = "Sistema de Cadastro" src = "https://raw.githubusercontent.com/luanaAlm/sistema_ebd/main/static/img/screencapture-127-0-0-1-8000-secretarios-home-2021-10-11-12_57_46.png" />
